@@ -93,6 +93,10 @@ var StatusBar = {
     show: function () {
         exec(null, null, "StatusBar", "show", []);
         StatusBar.isVisible = true;
+    },
+
+    getHeight: function () {
+        console.log("getHeight not yet implemented")
     }
 
 };
